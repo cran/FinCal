@@ -1,16 +1,15 @@
-\name{fv}
-\alias{fv}
-\title{Estimate future value (fv)}
+\name{discount.rate}
+\alias{discount.rate}
+\title{Computing the rate of return for each period}
 \usage{
-  fv(r, n, pv = 0, pmt = 0, type = 0)
+  discount.rate(n, pv, fv, pmt, type = 0)
 }
 \arguments{
-  \item{r}{discount rate, or the interest rate at which the
-  amount will be compounded each period}
-
   \item{n}{number of periods}
 
   \item{pv}{present value}
+
+  \item{fv}{future value}
 
   \item{pmt}{payment per period}
 
@@ -19,10 +18,10 @@
   (type=1)}
 }
 \description{
-  Estimate future value (fv)
+  Computing the rate of return for each period
 }
 \examples{
-fv(0.07,10,1000,10)
+discount.rate(n=5,pv=0,fv=600,pmt=-100,type=0)
 }
 \seealso{
   \code{\link{fv.simple}}

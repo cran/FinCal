@@ -10,7 +10,7 @@
 
   \item{n}{number of periods}
 
-  \item{pmt}{period payment}
+  \item{pmt}{payment per period}
 
   \item{type}{payments occur at the end of each period
   (type=0); payments occur at the beginning of each period
@@ -22,5 +22,8 @@
 \examples{
 fv.annuity(0.03,12,-1000)
 fv.annuity(r=0.03,n=12,pmt=-1000,type=1)
+}
+\seealso{
+  \code{\link{fv}}
 }
 

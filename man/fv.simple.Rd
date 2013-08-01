@@ -19,4 +19,7 @@
 fv.simple(0.08,10,-300)
 fv.simple(r=0.04,n=20,pv=-50000)
 }
+\seealso{
+  \code{\link{fv}}
+}
 

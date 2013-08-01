@@ -12,7 +12,7 @@
 
   \item{fv}{future value}
 
-  \item{pmt}{period payment}
+  \item{pmt}{payment per period}
 
   \item{type}{payments occur at the end of each period
   (type=0); payments occur at the beginning of each period
@@ -24,5 +24,12 @@
 \examples{
 n.period(0.1,-10000,60000000,-50000,0)
 n.period(r=0.1,pv=-10000,fv=60000000,pmt=-50000,type=1)
+}
+\seealso{
+  \code{\link{pv}}
+
+  \code{\link{fv}}
+
+  \code{\link{pmt}}
 }
 

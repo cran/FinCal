@@ -1,12 +1,15 @@
 Package: FinCal
-Title: Financial Calculator
-Description: Financial calculator for time value money.
-Version: 0.1
+Title: Time Value of Money Calculation and Computational Finance
+Description: Package for time value of money calculation and computational
+    finance
+Version: 0.2
+Date: 2013-08-01
 Author: Felix Yanhui Fan <nolanfyh@gmail.com>
 Maintainer: Felix Yanhui Fan <nolanfyh@gmail.com>
-License: MIT
+License: GPL (>= 2)
+URL: http://rpubs.com/Felix/7120
 Collate: 'FinCal.R'
-Packaged: 2013-07-16 16:36:32 UTC; alice
+Packaged: 2013-08-01 06:18:18 UTC; alice
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2013-07-16 18:56:41
+Date/Publication: 2013-08-01 09:51:38
