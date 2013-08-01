@@ -12,7 +12,7 @@
 
   \item{fv}{future value}
 
-  \item{pmt}{period payment}
+  \item{pmt}{payment per period}
 
   \item{type}{payments occur at the end of each period
   (type=0); payments occur at the beginning of each period
@@ -24,5 +24,10 @@
 \examples{
 pv(0.07,10,1000,10)
 pv(r=0.05,n=20,fv=1000,pmt=10,type=1)
+}
+\seealso{
+  \code{\link{pv.simple}}
+
+  \code{\link{pv.annuity}}
 }
 

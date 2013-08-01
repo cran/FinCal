@@ -10,7 +10,7 @@
 
   \item{g}{growth rate of perpetuity}
 
-  \item{pmt}{period payment}
+  \item{pmt}{payment per period}
 
   \item{type}{payments occur at the end of each period
   (type=0); payments occur at the beginning of each period
@@ -23,5 +23,8 @@
 pv.perpetuity(r=0.1,pmt=1000,g=0.02)
 pv.perpetuity(r=0.1,pmt=1000,type=1)
 pv.perpetuity(r=0.1,pmt=1000)
+}
+\seealso{
+  \code{\link{r.perpetuity}}
 }
 
