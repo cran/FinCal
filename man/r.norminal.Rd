@@ -19,5 +19,7 @@ r.norminal(0.03,4)
 }
 \seealso{
   \code{\link{r.continuous}}
+
+  \code{\link{ear.continuous}}
 }
 
