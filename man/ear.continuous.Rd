@@ -17,5 +17,7 @@ ear.continuous(0.03)
 }
 \seealso{
   \code{\link{ear}}
+
+  \code{\link{r.norminal}}
 }
 
