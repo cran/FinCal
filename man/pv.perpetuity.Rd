@@ -21,7 +21,9 @@
 }
 \examples{
 pv.perpetuity(r=0.1,pmt=1000,g=0.02)
+
 pv.perpetuity(r=0.1,pmt=1000,type=1)
+
 pv.perpetuity(r=0.1,pmt=1000)
 }
 \seealso{

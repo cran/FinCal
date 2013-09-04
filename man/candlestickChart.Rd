@@ -26,6 +26,8 @@
 }
 \examples{
 google <- get.ohlc.yahoo("GOOG",start="2013-07-01",end="2013-08-01"); candlestickChart(google)
+
+apple <- get.ohlc.google("AAPL",start="2013-07-01",end="2013-08-01"); candlestickChart(apple)
 }
 \seealso{
   \code{\link{get.ohlc.yahoo}}

@@ -21,6 +21,8 @@
 }
 \examples{
 google <- get.ohlc.yahoo("GOOG"); lineChart(google)
+
+apple <- get.ohlc.google("AAPL"); lineChart(apple)
 }
 \seealso{
   \code{\link{get.ohlc.yahoo}}

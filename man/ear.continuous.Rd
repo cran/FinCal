@@ -13,6 +13,7 @@
 }
 \examples{
 ear.continuous(r=0.1)
+
 ear.continuous(0.03)
 }
 \seealso{

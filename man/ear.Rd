@@ -14,6 +14,7 @@
 }
 \examples{
 ear(r=0.12,m=12)
+
 ear(0.04,365)
 }
 \seealso{
