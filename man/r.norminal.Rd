@@ -15,6 +15,7 @@
 }
 \examples{
 r.norminal(0.03,1)
+
 r.norminal(0.03,4)
 }
 \seealso{

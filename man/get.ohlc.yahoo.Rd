@@ -21,6 +21,10 @@
 }
 \examples{
 get.ohlc.yahoo(symbol="AAPL")
+
+get.ohlc.yahoo(symbol="AAPL",start="2013-08-01",freq="d")
+
+get.ohlc.yahoo(symbol="AAPL",start="2013-07-01",end="2013-08-01",freq="w")
 }
 \seealso{
   \code{\link{get.ohlcs.yahoo}}

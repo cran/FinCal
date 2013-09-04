@@ -17,7 +17,11 @@
   volume as a vertical line
 }
 \examples{
-google <- get.ohlc.yahoo("GOOG"); volumeChart(google)
+google <- get.ohlc.yahoo("GOOG");
+volumeChart(google)
+
+apple <- get.ohlc.google("AAPL");
+volumeChart(apple)
 }
 \seealso{
   \code{\link{get.ohlc.yahoo}}

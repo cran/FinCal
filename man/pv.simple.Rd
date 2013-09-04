@@ -17,6 +17,7 @@
 }
 \examples{
 pv.simple(0.07,10,100)
+
 pv.simple(r=0.03,n=3,fv=1000)
 }
 \seealso{

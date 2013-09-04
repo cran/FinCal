@@ -1,6 +1,17 @@
+FinCal 0.4
+===========
+Released 2013-Sept-04
+
+revised @examples, so multiple examples for some functions call be displayed
+
+Cost of goods sold and ending inventory under three methods (FIFO,LIFO,Weighted average)
+
+Methods
+* add cogs
+
 FinCal 0.3
 ===========
-Released 2013-Sept-10
+Released 2013-Aug-13
 
 Methods for downloading historical stock prices from Yahoo finance and Google finance, technical analysis.
 
