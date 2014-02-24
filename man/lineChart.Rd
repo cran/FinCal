@@ -2,7 +2,7 @@
 \alias{lineChart}
 \title{Technical analysts - Line charts: show prices for each period as a continuous line}
 \usage{
-  lineChart(ohlc, y = "close", main = "", ...)
+lineChart(ohlc, y = "close", main = "", ...)
 }
 \arguments{
   \item{ohlc}{output from get.ohlc.yahoo or
@@ -16,17 +16,16 @@
   \item{...}{Arguments to be passed to methods}
 }
 \description{
-  Technical analysts - Line charts: show prices for each
-  period as a continuous line
+Technical analysts - Line charts: show prices for each
+period as a continuous line
 }
 \examples{
-google <- get.ohlc.yahoo("GOOG"); lineChart(google)
-
-apple <- get.ohlc.google("AAPL"); lineChart(apple)
+# google <- get.ohlc.yahoo("GOOG"); lineChart(google)
+# apple <- get.ohlc.google("AAPL"); lineChart(apple)
 }
 \seealso{
-  \code{\link{get.ohlc.yahoo}}
+\code{\link{get.ohlc.yahoo}}
 
-  \code{\link{get.ohlc.google}}
+\code{\link{get.ohlc.google}}
 }
 

@@ -9,11 +9,10 @@
 #' @seealso \code{\link{lineChart}}
 #' @export
 #' @examples
-#' googapple <- get.ohlcs.yahoo(c("GOOG","AAPL"),start="2013-01-01"); 
-#' lineChartMult(googapple)
-#'
-#' googapple <- get.ohlcs.google(c("GOOG","AAPL"),start="2013-01-01"); 
-#' lineChartMult(googapple)
+#' # googapple <- get.ohlcs.yahoo(c("GOOG","AAPL"),start="2013-01-01"); 
+#' # lineChartMult(googapple)
+#' # googapple <- get.ohlcs.google(c("GOOG","AAPL"),start="2013-01-01"); 
+#' # lineChartMult(googapple)
 lineChartMult <- function(ohlcs,y="close",main="",...){
   options(warn=-1)
   sname=names(ohlcs)
