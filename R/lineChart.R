@@ -8,9 +8,8 @@
 #' @seealso \code{\link{get.ohlc.google}}
 #' @export
 #' @examples
-#' google <- get.ohlc.yahoo("GOOG"); lineChart(google)
-#'
-#' apple <- get.ohlc.google("AAPL"); lineChart(apple)
+#' # google <- get.ohlc.yahoo("GOOG"); lineChart(google)
+#' # apple <- get.ohlc.google("AAPL"); lineChart(apple)
 lineChart <- function(ohlc,y="close",main="",...){
   options(warn=-1)
   ohlc$date <- as.Date(ohlc$date,"%Y-%m-%d")

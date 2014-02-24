@@ -9,9 +9,8 @@
 #' @seealso \code{\link{get.ohlc.google}}
 #' @export
 #' @examples
-#' google <- get.ohlc.yahoo("GOOG",start="2013-07-01",end="2013-08-01"); candlestickChart(google)
-#'
-#' apple <- get.ohlc.google("AAPL",start="2013-07-01",end="2013-08-01"); candlestickChart(apple)
+#' # google <- get.ohlc.yahoo("GOOG",start="2013-07-01",end="2013-08-01"); candlestickChart(google)
+#' # apple <- get.ohlc.google("AAPL",start="2013-07-01",end="2013-08-01"); candlestickChart(apple)
 candlestickChart <- function(ohlc, start=NULL, end=NULL, main="", ...){
   options(warn=-1)
   date <- as.Date(ohlc$date)
