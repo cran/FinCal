@@ -1,3 +1,8 @@
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
+[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+
+
 Examples of using FinCal
 ========================================================
 Created on Fri Jul 19 2013   
@@ -72,9 +77,9 @@ args{pv}    # see arguments of the function
 example{pv} # see example of using the function
 ```
 
-* [Examples for version 0.1 -0.6](http://felixfan.github.io/finance/2014/05/12/FinCal-example-0.6/)
+* [Examples for version 0.1 -0.6](http://felixfan.github.io/FinCal-example-0.6/)
 
 
+# Citations
 
-
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.11511.png)](http://dx.doi.org/10.5281/zenodo.11511)
+* Yanhui Fan. (2016) FinCal: package for time value of money calculation, time series analysis and computational finance. Zenodo. [![DOI](https://zenodo.org/badge/5810/felixfan/FinCal.svg)](https://zenodo.org/badge/latestdoi/5810/felixfan/FinCal)
